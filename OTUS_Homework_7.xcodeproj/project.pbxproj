@@ -58,8 +58,9 @@
 		2B0C16B227527BCA009EB51C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				2B0C16D82752A941009EB51C /* Core */,
+				2B0C16D62752A919009EB51C /* UI */,
 				2B0C16B327527BCA009EB51C /* OTUS_Homework_7App.swift */,
-				2B0C16B427527BCA009EB51C /* ContentView.swift */,
 				2B0C16B527527BCD009EB51C /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -88,6 +89,29 @@
 				2B0C16D52752A8DD009EB51C /* DI */,
 			);
 			name = Packages;
+			sourceTree = "<group>";
+		};
+		2B0C16D62752A919009EB51C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2B0C16D72752A93A009EB51C /* ViewModel */,
+				2B0C16B427527BCA009EB51C /* ContentView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2B0C16D72752A93A009EB51C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2B0C16D82752A941009EB51C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
