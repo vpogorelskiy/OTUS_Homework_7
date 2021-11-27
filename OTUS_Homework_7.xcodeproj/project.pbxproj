@@ -23,6 +23,7 @@
 		2B0C16BA27527BCD009EB51C /* OTUS_Homework_7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTUS_Homework_7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B0C16C027527BCD009EB51C /* OTUS_Homework_7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTUS_Homework_7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B0C16C227527BCD009EB51C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		2B0C16D52752A8DD009EB51C /* DI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DI; path = Packages/DI; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +48,7 @@
 		2B0C16AD27527BC9009EB51C = {
 			isa = PBXGroup;
 			children = (
+				2B0C16D42752A8DD009EB51C /* Packages */,
 				2B0C16B227527BCA009EB51C /* Shared */,
 				2B0C16C127527BCD009EB51C /* macOS */,
 				2B0C16BB27527BCD009EB51C /* Products */,
@@ -78,6 +80,14 @@
 				2B0C16C227527BCD009EB51C /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		2B0C16D42752A8DD009EB51C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				2B0C16D52752A8DD009EB51C /* DI */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
